@@ -56,7 +56,6 @@ export class CategoryService {
 
     return category
 
-    return `This action returns a #${id} category`;
   }
 
   async update(id: number, updateCategoryDto: UpdateCategoryDto) {
