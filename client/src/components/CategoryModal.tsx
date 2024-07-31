@@ -13,7 +13,7 @@ const CategoryModal: FC<ICategoryModal> = ({ type, id, setVisibleModal }) => {
         action="/categories" 
         method={type} 
         onSubmit={() => setVisibleModal(false)} 
-        className="grid gap-2 w-[300px] p-5 rounded-b-md bg-slate-900 p-5"
+        className="grid gap-2 w-[300px] rounded-b-md bg-slate-900 p-5"
     >
         <label htmlFor="title">
             <small>Category Title</small>
