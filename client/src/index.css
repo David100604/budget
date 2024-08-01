@@ -13,6 +13,9 @@
   thead td{
     @apply text-white;
   }
+  option{
+    @apply text-white bg-slate-800
+  }
 }
 
 @layer components{

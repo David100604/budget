@@ -37,10 +37,12 @@ const Header:FC = () => {
                   >Home</NavLink>
               </li>
               <li>
-                <NavLink to={'/transactions'}>Transactions</NavLink>
+                <NavLink to={'/transactions'} className={({isActive}) => 
+                    isActive ? 'text-white': 'text-white/50'}>Transactions</NavLink>
               </li>
               <li>
-                <NavLink to={'/categories'}>Categories</NavLink>
+                <NavLink to={'/categories'} className={({isActive}) => 
+                    isActive ? 'text-white': 'text-white/50'}>Categories</NavLink>
               </li>
             </ul>
           </nav>
